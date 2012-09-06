@@ -1,0 +1,45 @@
+
+
+#sidebar {
+	width:110%;
+	height:40px;
+	position: fixed;
+	top:0;
+	left:-10px;
+}
+
+#sidebar .menu {
+	margin: 0;
+	padding: 0;
+	list-style:none;
+	height:40px;
+	background-color: #6c6c6c;
+}
+
+#sidebar .menu li {
+	float: left;
+}
+#sidebar .menu a {
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	color: #CCC;
+	padding:0 20px;
+	text-decoration:none;
+}
+#sidebar .menu a:hover {
+	color: #FFF;
+	text-decoration:none;
+}
+
+#inner-content {
+	margin-top: 60px;
+	width:1000%;
+}
+.card {
+	width:10%;
+	height:100%;
+	overflow: scroll;
+	float: left;
+	margin-right: 40px;
+}
